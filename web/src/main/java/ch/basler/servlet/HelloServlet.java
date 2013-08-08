@@ -2,7 +2,6 @@ package ch.basler.servlet;
 
 import ch.basler.ejb.FooBarEJB;
 
-import javax.ejb.EJB;
 import javax.inject.Inject;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
