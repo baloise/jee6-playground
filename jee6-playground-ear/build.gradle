@@ -1,0 +1,6 @@
+apply plugin: 'ear'
+
+dependencies {
+    // will become ear modules (placed in ear root)
+    deploy project(path: ':jee6-playground-web', configuration: 'archives')
+}
