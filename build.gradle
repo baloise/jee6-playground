@@ -1,10 +1,8 @@
-allprojects {
-    version = "0.1-SNAPSHOT"
-}
-
 subprojects {
 
     apply plugin: "java"
+
+    version = "0.1-SNAPSHOT"
 
     repositories {
         mavenCentral()
@@ -13,4 +11,5 @@ subprojects {
     dependencies {
         compile "javax:javaee-api:6.0"
     }
+
 }
